@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173E530626CE31F8007682BE /* CharecterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E530426CE31F8007682BE /* CharecterCollectionViewCell.swift */; };
+		173E530726CE31F8007682BE /* CharecterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173E530526CE31F8007682BE /* CharecterCollectionViewCell.xib */; };
 		17623A7226CE1A2800428E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A7126CE1A2800428E91 /* AppDelegate.swift */; };
 		17623A7426CE1A2800428E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A7326CE1A2800428E91 /* SceneDelegate.swift */; };
 		17623A7626CE1A2800428E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A7526CE1A2800428E91 /* ViewController.swift */; };
@@ -16,9 +18,12 @@
 		17623A9326CE236200428E91 /* CharecterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A9226CE236200428E91 /* CharecterModel.swift */; };
 		17623A9726CE249B00428E91 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A9626CE249B00428E91 /* ApiService.swift */; };
 		17623A9C26CE263900428E91 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 17623A9B26CE263900428E91 /* Kingfisher */; };
+		17623A9F26CE2D9B00428E91 /* CharecterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A9E26CE2D9B00428E91 /* CharecterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		173E530426CE31F8007682BE /* CharecterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharecterCollectionViewCell.swift; sourceTree = "<group>"; };
+		173E530526CE31F8007682BE /* CharecterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharecterCollectionViewCell.xib; sourceTree = "<group>"; };
 		17623A6E26CE1A2800428E91 /* Kingfisher MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kingfisher MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17623A7126CE1A2800428E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17623A7326CE1A2800428E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +34,7 @@
 		17623A7F26CE1A2900428E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17623A9226CE236200428E91 /* CharecterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharecterModel.swift; sourceTree = "<group>"; };
 		17623A9626CE249B00428E91 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		17623A9E26CE2D9B00428E91 /* CharecterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharecterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,7 @@
 		17623A8E26CE1AC500428E91 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				17623A9E26CE2D9B00428E91 /* CharecterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -127,6 +134,8 @@
 		17623A8F26CE1AD200428E91 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				173E530426CE31F8007682BE /* CharecterCollectionViewCell.swift */,
+				173E530526CE31F8007682BE /* CharecterCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173E530726CE31F8007682BE /* CharecterCollectionViewCell.xib in Resources */,
 				17623A7E26CE1A2900428E91 /* LaunchScreen.storyboard in Resources */,
 				17623A7B26CE1A2900428E91 /* Assets.xcassets in Resources */,
 				17623A7926CE1A2800428E91 /* Main.storyboard in Resources */,
@@ -217,6 +227,8 @@
 			files = (
 				17623A7626CE1A2800428E91 /* ViewController.swift in Sources */,
 				17623A9726CE249B00428E91 /* ApiService.swift in Sources */,
+				173E530626CE31F8007682BE /* CharecterCollectionViewCell.swift in Sources */,
+				17623A9F26CE2D9B00428E91 /* CharecterViewModel.swift in Sources */,
 				17623A9326CE236200428E91 /* CharecterModel.swift in Sources */,
 				17623A7226CE1A2800428E91 /* AppDelegate.swift in Sources */,
 				17623A7426CE1A2800428E91 /* SceneDelegate.swift in Sources */,

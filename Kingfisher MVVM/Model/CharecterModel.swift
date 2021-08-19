@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CharecterModel{
+class CharecterModel : Codable{
   
 
     let name : String
