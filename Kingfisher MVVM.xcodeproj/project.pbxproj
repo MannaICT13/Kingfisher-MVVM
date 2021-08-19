@@ -10,6 +10,7 @@
 		173E530626CE31F8007682BE /* CharecterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E530426CE31F8007682BE /* CharecterCollectionViewCell.swift */; };
 		173E530726CE31F8007682BE /* CharecterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173E530526CE31F8007682BE /* CharecterCollectionViewCell.xib */; };
 		173E530B26CE6524007682BE /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 173E530A26CE6524007682BE /* IQKeyboardManagerSwift */; };
+		173E530E26CE65D5007682BE /* KeyboardHandlingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E530D26CE65D5007682BE /* KeyboardHandlingVC.swift */; };
 		17623A7226CE1A2800428E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A7126CE1A2800428E91 /* AppDelegate.swift */; };
 		17623A7426CE1A2800428E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A7326CE1A2800428E91 /* SceneDelegate.swift */; };
 		17623A7626CE1A2800428E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17623A7526CE1A2800428E91 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		173E530426CE31F8007682BE /* CharecterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharecterCollectionViewCell.swift; sourceTree = "<group>"; };
 		173E530526CE31F8007682BE /* CharecterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharecterCollectionViewCell.xib; sourceTree = "<group>"; };
+		173E530D26CE65D5007682BE /* KeyboardHandlingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandlingVC.swift; sourceTree = "<group>"; };
 		17623A6E26CE1A2800428E91 /* Kingfisher MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kingfisher MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17623A7126CE1A2800428E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17623A7326CE1A2800428E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				17623A7526CE1A2800428E91 /* ViewController.swift */,
+				173E530D26CE65D5007682BE /* KeyboardHandlingVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			files = (
 				17623A7626CE1A2800428E91 /* ViewController.swift in Sources */,
 				17623A9726CE249B00428E91 /* ApiService.swift in Sources */,
+				173E530E26CE65D5007682BE /* KeyboardHandlingVC.swift in Sources */,
 				173E530626CE31F8007682BE /* CharecterCollectionViewCell.swift in Sources */,
 				17623A9F26CE2D9B00428E91 /* CharecterViewModel.swift in Sources */,
 				17623A9326CE236200428E91 /* CharecterModel.swift in Sources */,

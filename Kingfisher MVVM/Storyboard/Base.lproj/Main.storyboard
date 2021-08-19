@@ -8,20 +8,142 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Keyboard HandlingVC-->
         <scene sceneID="WB9-Ui-r8G">
             <objects>
-                <viewController id="fdp-1m-eLN" sceneMemberID="viewController">
+                <viewController id="fdp-1m-eLN" customClass="KeyboardHandlingVC" customModule="Kingfisher_MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sgV-bP-n1b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NjG-le-GPI">
+                                <rect key="frame" x="20" y="44" width="374" height="710"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BM1-dt-COU">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="gUU-R7-bOy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ol-d1-CBl">
+                                        <rect key="frame" x="0.0" y="60" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="JRc-kM-9HM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yki-0U-bvC">
+                                        <rect key="frame" x="0.0" y="120" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="CbQ-MP-Nqz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Bc-bg-Ezg">
+                                        <rect key="frame" x="0.0" y="180" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="x48-jc-d0h"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fCW-Ar-0X4">
+                                        <rect key="frame" x="0.0" y="240" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="LJm-ar-xoL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bB4-qr-bHz">
+                                        <rect key="frame" x="0.0" y="300" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="OSZ-mi-24T"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f59-tK-uZ6">
+                                        <rect key="frame" x="0.0" y="360" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="trp-qK-GcL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7MP-Os-tbk">
+                                        <rect key="frame" x="0.0" y="420" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="fn3-R9-pk4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VGH-nc-Dft">
+                                        <rect key="frame" x="0.0" y="480" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="S5G-0b-bEY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EKd-IV-Z2k">
+                                        <rect key="frame" x="0.0" y="540" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="j01-i8-Ym0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iH8-k7-yJ2">
+                                        <rect key="frame" x="0.0" y="600" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="CgU-ZD-8I2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mMo-wF-TUJ">
+                                        <rect key="frame" x="0.0" y="660" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="e5P-Ht-nB7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="VY1-Ld-lFm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NjG-le-GPI" firstAttribute="top" secondItem="VY1-Ld-lFm" secondAttribute="top" id="VIf-8A-gir"/>
+                            <constraint firstItem="VY1-Ld-lFm" firstAttribute="trailing" secondItem="NjG-le-GPI" secondAttribute="trailing" constant="20" id="dHL-h4-kzn"/>
+                            <constraint firstItem="NjG-le-GPI" firstAttribute="leading" secondItem="VY1-Ld-lFm" secondAttribute="leading" constant="20" id="g8s-UE-lti"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField1" destination="BM1-dt-COU" id="rul-K3-EoS"/>
+                        <outlet property="textField10" destination="EKd-IV-Z2k" id="bmz-Us-iW0"/>
+                        <outlet property="textField11" destination="iH8-k7-yJ2" id="7sd-dL-aGT"/>
+                        <outlet property="textField12" destination="mMo-wF-TUJ" id="QNK-GG-jLR"/>
+                        <outlet property="textField2" destination="8Ol-d1-CBl" id="T1G-Na-j4Y"/>
+                        <outlet property="textField3" destination="Yki-0U-bvC" id="Gy1-WP-Cpp"/>
+                        <outlet property="textField4" destination="9Bc-bg-Ezg" id="0LI-G3-vpO"/>
+                        <outlet property="textField5" destination="fCW-Ar-0X4" id="5yt-xA-DcS"/>
+                        <outlet property="textField6" destination="bB4-qr-bHz" id="OZf-Ho-Ba5"/>
+                        <outlet property="textField7" destination="f59-tK-uZ6" id="wtp-fp-8X0"/>
+                        <outlet property="textField8" destination="7MP-Os-tbk" id="lU3-2t-U4q"/>
+                        <outlet property="textField9" destination="VGH-nc-Dft" id="e33-Wn-sPz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aUj-vK-AY7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-781" y="78"/>
+            <point key="canvasLocation" x="-514" y="78"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -58,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="232" y="78"/>
+            <point key="canvasLocation" x="338" y="78"/>
         </scene>
     </scenes>
     <resources>
